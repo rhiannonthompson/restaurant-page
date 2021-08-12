@@ -1,0 +1,22 @@
+@use "variables";
+
+body {
+  background-color: var(--background);
+  color: aliceblue;
+}
+
+h1 {
+  color: var(--text);
+}
+
+section {
+  display: flex;
+  background-color: var(--nav);
+  max-height: 300px;
+  justify-content: center;
+  width: 100%;
+}
+
+span {
+  margin: 20px;
+}
