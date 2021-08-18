@@ -1,22 +1,26 @@
 @use "variables";
 
-body {
-  background-color: var(--background);
-  color: aliceblue;
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1 {
+html {
+  font-size: 82.5%;
   color: var(--text);
 }
 
-section {
-  display: flex;
-  background-color: var(--nav);
-  max-height: 300px;
-  justify-content: center;
-  width: 100%;
+li {
+  list-style: none;
 }
 
-span {
-  margin: 20px;
+a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+button {
+  border: none;
+  background-color: transparent;
 }
